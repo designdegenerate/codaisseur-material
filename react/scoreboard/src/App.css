@@ -1,0 +1,79 @@
+body {
+
+}
+
+button {
+  padding: 0.25rem 0.5rem;
+}
+
+.App {
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #e0e4ee;
+}
+
+.percentageContainer {
+  align-self: flex-end;
+  width: 100%;
+  overflow: hidden;
+}
+
+.percentage {
+  height: 1rem;
+  background: linear-gradient(90deg, #bf0073, #f20f0f);;
+  position: relative;
+}
+
+select {
+  margin-left: 0.5rem;
+}
+
+li button {
+  display: block;
+  appearance: none;
+  margin: 0;
+  font-family: inherit;
+  border: none;
+  width: fit-content;
+  width: --webkit-fit-content;
+  background-color: #4700eb;
+  color: #fff;
+  padding: 0 1rem;
+}
+
+li button:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+li + li {
+  margin-top: 0.25rem;
+}
+
+li p {
+  margin: 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#AddPlayerForm {
+  display: flex;
+  column-gap: 0.5rem;
+}

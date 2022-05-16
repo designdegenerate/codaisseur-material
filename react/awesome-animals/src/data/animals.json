@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Chicken",
+    "level": 1
+  },
+  {
+    "name": "Sloth",
+    "level": 2
+  },
+  {
+    "name": "Porcupine",
+    "level": 3
+  },
+  {
+    "name": "Killer Whale",
+    "level": 4
+  },
+  {
+    "name": "Velociraptor",
+    "level": 5
+  }
+]
