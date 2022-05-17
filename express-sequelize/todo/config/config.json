@@ -1,0 +1,6 @@
+{
+  "development": {
+    "url": "insert here",
+    "dialect": "postgres"
+  }
+}

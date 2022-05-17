@@ -1,0 +1,23 @@
+# TODO
+- [x] Set up new database
+- [x] set up new models and migrations with templates
+- [x] set up new seeds with mock data
+- [] set up migration to create new columns with relations.
+    - [x] set up models with relations
+    - [x] reset migrations
+- [x] seed data
+- [x] connect database to express server to create an API
+    - [x] setup / GET welcome
+    - [x] setup /users GET
+    - [x] /users/:id/todolists GET
+    - [x] /users/:id/todolists/todoitems GET
+    - [x] /users/:id Patch
+    - [x] /users/:id delete
+    - [x] /users/:id create
+    - [x] add correct response codes for 404
+        - [x] User not found
+- [x] Split into subroutes
+    - [x] Split up users
+    - [x] Nested routers
+- [x] Set up middlewares
+    - [] custom content type
