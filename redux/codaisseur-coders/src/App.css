@@ -1,0 +1,32 @@
+.App {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav, nav div {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav div {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+li + li {
+  margin-top: 1.5rem;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}

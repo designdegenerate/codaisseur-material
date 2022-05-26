@@ -1,0 +1,1 @@
+export const selectbalance = (reduxState) => reduxState.balance.amount;
