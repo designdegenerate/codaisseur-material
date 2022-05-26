@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ToDoList</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+</head>
+<body>
+    <main>
+        <h1>To Do List</h1>
+        <form>
+            <input type="text" placeholder="What needs to be done?" name="">
+        </form>
+        <ul id='toDoList'>
+        </ul>
+        <ul id='statusBar'>
+            <li>To Do: <span id='itemsNotDone'>0</span></li>
+            <li>Overdue: <span id='itemsOverdue'>0</span></li>
+            <li>Done: <span id='itemsDone'>0</span></li>
+            <li>Total: <span id='itemsTotal'>0</span></li>
+            <li><button>Clean up</button></li>
+        </ul>
+    </main>
+    <script type="text/javascript" src="/scripts/main.js"></script>
+</body>
+</html>
