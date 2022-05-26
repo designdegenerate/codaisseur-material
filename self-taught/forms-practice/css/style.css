@@ -1,0 +1,64 @@
+html {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.35;
+}
+
+main {
+    max-width: 550px;
+    margin: 10rem auto 0 auto;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: baseline;
+}
+
+label {
+    width: 100px;
+}
+
+input, textarea {
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.35;
+    min-width: 200px;
+}
+
+label + input, label + textarea {
+    margin-left: 0.5rem;
+}
+
+li + li {
+    margin-top: 0.75rem;
+}
+
+button[type="submit"] {
+    margin-top: 1rem;
+    margin-left: calc(100px + 0.5rem);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+fieldset li label {
+    width: initial;
+}
+
+fieldset li input,
+fieldset li textarea {
+    min-width: initial;
+}
+
+input[type="radio"] {
+    margin-right: 0.5rem;
+}
