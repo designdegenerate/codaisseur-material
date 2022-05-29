@@ -18,6 +18,11 @@ A Facebook-esque clone I built.
 Front-end: https://github.com/lspangenberg/coda-practice-frontend  
 Back-end: https://github.com/lspangenberg/coda-practice-backend  
 
+### MongoDB Workshop
+Since I wanted to use MongoDB for my portfolio project, I decided to create a mini-workshop for other students to help them learn as well.
+
+https://github.com/lspangenberg/codaisseur-student-mongodb-workshop
+
 ### Portfolio Piece
 Will be available once I complete it.
 
