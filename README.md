@@ -24,10 +24,10 @@ Since I wanted to use MongoDB for my portfolio project, I decided to create a mi
 https://github.com/lspangenberg/codaisseur-student-mongodb-workshop
 
 ### Portfolio Piece
-Will be available once I complete it.
+[View here](https://github.com/designdegenerate/linktomyself-frontend)
 
 ### Large group project
-Also absent until completed.
+Wasn't entirely successful, but [can be found here](https://github.com/designdegenerate/dude-dont-forget)
 
 ## License
 Every project and file in this repo is licensed under the MIT License unless stated otherwise.
