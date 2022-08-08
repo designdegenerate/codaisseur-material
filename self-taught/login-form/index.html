@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home page</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <!--meta name="description" content="SEO description"-->
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <section id='heroImage'>
+        <div id='odinLogoWrapper'>
+            <img src="/media/images/odin-lined.png">
+            <h1>Odin</h1>
+        </div>
+        <p>Photo by <a href="https://unsplash.com/photos/25xggax4bSA" target="__blank">Halie West</a> on <a href="https://unsplash.com" target="__blank">Unsplash</a></p>
+    </section>
+    <section id='main'>
+        <h2>This is not a real online service! You know you need something like this in your life to realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
+        <h2>You <em>know</em> you want to.</h2>
+        <form action="submit" method="/">
+            <div>
+                <h3>Let's do this!</h3>
+                <ul>
+                    <li>
+                        <label for="firstName">First Name</label>
+                        <input required placeholder="Jane" type="text" id="firstName" minlength="1" name="firstName">
+                        <span class="validInput"></span>
+                    </li>
+                    <li>
+                        <label for="lastName">Last Name</label>
+                        <input required placeholder="Doe" minlength="1" type="text" id="lastName" name="lastName">
+                        <span class="validInput"></span>
+                    </li>
+                    <li>
+                        <label for="userEmail">Email</label>
+                        <input required type="email" minlength="3" placeholder="user@example.com" id="userEmail" name="userEmail">
+                        <span class="validInput"></span>
+                    </li>
+                    <li>
+                        <label for="phoneNumber">Phone Number</label>
+                        <input required type="tel" minlength="1" id="phoneNumber" name="phoneNumber">
+                        <span class="validInput"></span>
+                    </li>
+                    <li>
+                        <label for="password">Password</label>
+                        <input required type="password" minlength="8" name="password" id="password">
+                        <span class="validInput"></span>
+                    </li>
+                    <li>
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input required minlength="8" type="password" id="confirmPassword" name="confirmPassword">
+                        <span class="validInput"></span>
+                        <span id="pwMismatch">* Passwords do not match</span>
+                    </li>
+                </ul>
+            </div>
+            <button type='submit'>Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </form>
+    </section>
+    <script src="/js/smartquotes.js" type="text/javascript" charset="utf-8"></script>
+    <script>smartquotes().listen();</script>
+    <script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
